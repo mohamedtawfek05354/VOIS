@@ -1,6 +1,6 @@
 # Automated Testing and Data Analysis Project
 --------------------------------------------
-This project consists of two automated tasks using Selenium/Java and one data manipulation task using Python. The project demonstrates test automation best practices, the use of design patterns, and data-driven testing in Selenium for the first two tasks. For the third task, Python is used to clean and analyze a CSV file.
+This project consists of two automated tasks using Selenium/Java and one data manipulation task using Python. The project demonstrates test automation best practices, the use of design patterns, and data-driven testing in Selenium for the first two tasks and they will work headless. the data driven in the first two tasks with JSON and I am using Config.properties as well for storing and inserting data. For the third task, Python is used to clean and analyze a CSV file.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
