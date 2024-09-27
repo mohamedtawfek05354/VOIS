@@ -1,0 +1,11 @@
+{
+  "Task2": [
+    {
+      "title": "Karnataka State Road Transport Corporation - KSRTC",
+      "fromCity": "CHIKKAMAGALURU",
+      "toCity": "BENGALURU",
+      "arrivalday": "27",
+      "arrivalMonth": "10"
+    }
+  ]
+}

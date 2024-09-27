@@ -1,0 +1,11 @@
+{
+  "Scenario": [
+    {
+      "title": "Amazon",
+      "searchItem": "car accessories",
+      "addItemElement": "a-autoid-4-announce",
+      "assertItemAdded": "Item Added",
+      "cartTitle": "Amazon.com Shopping Cart"
+    }
+  ]
+}
