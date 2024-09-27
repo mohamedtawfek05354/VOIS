@@ -1,12 +1,20 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestScriptAuto" verbose="1" thread-count="3">
-    <test name="First scenario">
+    <test name="scenarios">
         <classes>
             <class name="Task_1__Test.Task_1_Test">
                 <methods>
                     <include name="Add_Item_to_Cart">
                     </include>
                     <include name="Add_item_scenario_2">
+                    </include>
+                </methods>
+            </class>
+            <class name="Task_2_Test.Task_2_Test">
+                <methods>
+                    <include name="Choose_routers">
+                    </include>
+                    <include name="Choose_seat">
                     </include>
                 </methods>
             </class>
