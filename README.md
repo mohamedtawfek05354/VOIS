@@ -115,8 +115,10 @@ Navigate to the payment page without submitting the payment.
 Task 1 & Task 2 (Selenium/Java)
 You can run the tests using Maven:
 mvn clean test
+
 Run the Python script for data manipulation:
 python Task3.py
+
 Design Patterns and Best Practices
 
 #Best Practices
@@ -131,7 +133,7 @@ Test scenarios are designed to be flexible and reusable with multiple data sets 
 JSON Data Source: In addition to the traditional approach of using Excel or CSV, this project also demonstrates data-driven testing using JSON as the input data source. JSON files are parsed to supply data to test cases, enabling flexible and structured test case design.
 Logging with Log4j:
 
-For effective logging, Log4j is implemented. It provides robust logging capabilities, ensuring that each test execution is thoroughly documented with relevant info, debug, warning, and error logs.
+Log4j is implemented for effective logging. It provides robust logging capabilities, ensuring that each test execution is thoroughly documented with relevant information, debug, warning, and error logs.
 This helps track down issues in test execution, understand the test flow, and generate clear logs for debugging.
 Example of how Log4j is configured and used in the project:
 Allure Reports:
@@ -142,8 +144,8 @@ Example of how to use Allure:
 
 Maintainability and Design Patterns:
 
-The code follows SOLID principles to ensure that it is maintainable, scalable, and easy to extend.
-The Single Responsibility Principle ensures that each class or method has a well-defined purpose, enhancing the maintainability and readability of the codebase.
+The code follows SOLID principles to ensure it is maintainable, scalable, and easy to extend.
+The Single Responsibility Principle ensures that each class or method has a well-defined purpose, enhancing the codebase's maintainability and readability.
 Factory Pattern is applied to manage WebDriver instances, allowing for flexible browser configurations and parallel execution.
 Reusable Methods:
 
